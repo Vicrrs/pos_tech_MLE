@@ -1,0 +1,55 @@
+{
+  "model_name": "logistic_regression",
+  "best_params": {
+    "model__C": "10.0"
+  },
+  "threshold": 0.26,
+  "seed": 42,
+  "features": [
+    "tenure",
+    "MonthlyCharges",
+    "TotalCharges",
+    "gender",
+    "SeniorCitizen",
+    "Partner",
+    "Dependents",
+    "PhoneService",
+    "MultipleLines",
+    "InternetService",
+    "OnlineSecurity",
+    "OnlineBackup",
+    "DeviceProtection",
+    "TechSupport",
+    "StreamingTV",
+    "StreamingMovies",
+    "Contract",
+    "PaperlessBilling",
+    "PaymentMethod"
+  ],
+  "n_train": 5634,
+  "sklearn_version": "1.9.1",
+  "test_metrics": {
+    "roc_auc": 0.8412488051874241,
+    "pr_auc": 0.6281052651158737,
+    "brier": 0.1385201247634221,
+    "roc_auc_ci95": [
+      0.8183094893254319,
+      0.8618180804241993
+    ],
+    "threshold": 0.26,
+    "f1": 0.6155440414507772,
+    "precision": 0.5025380710659898,
+    "recall": 0.7941176470588235,
+    "flagged_rate": 0.41944641589779985,
+    "net_value_per_1000": 36605.06742370475,
+    "n_test": 1409,
+    "churn_rate_test": 0.2654364797728886,
+    "net_value_flag_everyone_per_1000": 19534.166075230652,
+    "net_value_by_success_rate_per_1000": {
+      "0.1": -1779.8580553584072,
+      "0.2": 17412.60468417318,
+      "0.3": 36605.06742370475,
+      "0.5": 74989.99290276793
+    }
+  }
+}
