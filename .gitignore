@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Ambientes virtuais e segredos
+.env/
+.venv/
+venv/
+*.env
+
+# Ferramentas
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.serena/
+
+# Machine Learning: versiona apenas o modelo campeão
+**/models/*
+!**/models/champion.joblib
+mlruns/
+*.pkl
