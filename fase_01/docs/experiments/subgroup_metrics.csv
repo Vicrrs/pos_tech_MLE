@@ -1,0 +1,10 @@
+group,value,n,churn_rate,roc_auc,recall,precision,flagged_rate
+gender,Female,687,0.2809,0.8364,0.7876,0.5241,0.4221
+gender,Male,722,0.2507,0.8469,0.8011,0.4817,0.4169
+SeniorCitizen,No,1187,0.2325,0.8419,0.7464,0.4703,0.369
+SeniorCitizen,Yes,222,0.4414,0.7815,0.9286,0.5948,0.6892
+Dependents,No,978,0.3098,0.8248,0.8284,0.505,0.5082
+Dependents,Yes,431,0.1647,0.8552,0.6479,0.4894,0.2181
+Contract,Month-to-month,773,0.4256,0.7421,0.8784,0.5179,0.7219
+Contract,One year,300,0.12,0.7381,0.2222,0.2424,0.11
+Contract,Two year,336,0.0268,0.7611,0.0,0.0,0.0
